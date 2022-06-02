@@ -1,0 +1,423 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  .container {
+    width: 40%;
+    height: 400px;
+    box-shadow: 4px 4px 4px rgb(17, 17, 17);
+    border-bottom: 4px;
+    position: relative;
+    left: 220px;
+    top: 20px;
+  }
+header{
+
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(28, 73, 58);
+    border: 2px solid black;
+
+}
+header img{
+position: relative;
+width: 100px;
+top:30px;
+left:20px;
+}
+    .info{
+        position: relative;
+        font-size: 15px;
+        left:30px;
+        top:150px;
+    }
+    .location img{
+        position: relative;
+        width: 20px;
+        margin: 5px;
+ display: flex;
+    }
+.location{
+    position: relative;
+font-size: 20px;
+top:170px;
+left:20px;
+display: flex;
+}
+p{
+
+    display: flex;
+}
+.type{font-size: 15px;
+    position: relative;
+top:180px;
+font-family: courier;
+left: 20px;
+
+}
+.edit{
+
+    position: relative;
+    font-size: 20px;
+    top:210px;
+    left:20px;
+    display: flex;
+}
+.edit img{
+    position: relative;
+    width: 20px;
+    margin: 5px;
+display: flex;
+}
+.nav{
+    width: 1000px;
+    height: 40px;
+    background-color: rgb(53, 50, 50);
+    padding: 15px;
+    padding-bottom: 15px;
+    margin: 0px auto;
+    display: flex;
+    
+    }
+    ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    
+    
+    }
+    li a{
+        margin: 10px;
+        list-style-type:none;
+        text-decoration: none;
+        color: white;
+        display: block;
+    
+    }
+    .nav-title{
+    color: white;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    
+    }
+    
+    .nav-links{
+    align-items: center;
+    justify-content: right;
+    display: flex;
+    padding-left: 330px;
+    text-decoration: none;
+    margin-left:auto ;
+    color: white;
+    
+    }
+    
+    .btn{
+    border none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 8px;
+    color: rgb(56, 53, 53);
+    background-color: rgb(79, 207, 53);
+    box-shadow : 5px 5px 5px;
+    }
+    
+    .active{
+        color: white;
+        font-family: cursive;
+    }
+
+.cont2{
+    width: 40%;
+    height: 200px;
+    box-shadow: 4px 4px 4px rgb(17, 17, 17);
+    border-bottom: 4px;
+    position: relative;
+    left: 220px;
+    top: 80px;
+}
+
+.co{
+
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(28, 73, 58);
+    border: 2px solid black;
+
+}
+.dd{
+
+    font-size: 15px;
+        position: relative;
+    top: 60px;
+    font-family: cursive;
+    left: 15px;
+    
+    
+}
+.cont1{
+    width: 20%;
+    height: 330px;
+    box-shadow: 4px 4px 4px rgb(17, 17, 17);
+    border-bottom: 4px;
+    position: relative;
+    left: 800px;
+    top: -250px;
+    
+}
+
+h2{
+    color: white;
+}
+.co1{
+    position: absolute;
+    font-size: 15px;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(28, 73, 58);
+    border: 2px solid black;
+    text-align: center;
+    justify-content: flex-end;
+   
+    
+}
+.ddd{
+
+    justify-content: flex-end;
+    display: flex;
+    margin: auto;
+    margin-right: 6px;
+    padding: 15px 10px;
+    margin-left: 12px;
+
+
+}
+
+.low img{
+    position: relative;
+    width: 20px;
+display: flex;
+margin: auto;
+
+}
+.low{
+position: relative;
+
+font-size: 20px;
+top:100px;
+left:20px;
+display: flex;
+width: 110px;
+height: 20px;
+}
+p{
+
+display: flex;
+}
+.low1 img{
+    position: relative;
+    width: 20px;
+display: flex;
+margin: auto;
+
+}
+.low1{
+position: relative;
+font-size: 20px;
+top:100px;
+left:8px;
+display: flex;
+width: 110px;
+height: 20px;
+}
+p{
+
+display: flex;
+}
+.low2 img{
+    position: relative;
+    width: 20px;
+display: flex;
+margin: auto;
+
+}
+.low2{
+position: relative;
+font-size: 20px;
+top:100px;
+display: flex;
+width: 110px;
+left:15px;
+height: 20px;
+}
+p{
+
+display: flex;
+}
+.low3 img{
+    position: relative;
+    width: 20px;
+display: flex;
+margin: auto;
+left:11px;
+}
+.low3{
+position: relative;
+font-size: 20px;
+top:100px;
+
+display: flex;
+width: 110px;
+height: 20px;
+}
+p{
+
+display: flex;
+}
+.link{
+    position: relative;
+font-size: 20px;
+top:100px;
+display: flex;
+width: 110px;
+height: 20px;
+
+
+}
+.link a {
+    
+    
+        width: 278px;
+        height: 30px;
+        background-color: rgb(255, 255, 255);
+        padding: 6px 10px;
+        margin:auto;
+        margin-right: -160px;
+        margin-top: -20px;
+        display: flex;
+        justify-content: flex-start;
+        border-style:solid;
+        border-color: rgb(184, 182, 182);
+        position: relative;
+          top: 50px;
+align-items: center;
+box-shadow: 4px 4px 4px rgb(17, 17, 17);
+    
+}
+    
+
+.cont3{
+    width: 100%;
+    height: 240px;
+    box-shadow: 4px 4px 4px rgb(17, 17, 17);
+    border-bottom: 4px;
+    position: relative;
+    left: 2px;
+    top: -500px;
+    
+}
+
+.co3{
+
+    position: absolute;
+    font-size: 15px;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(28, 73, 58);
+    border: 2px solid black;
+    text-align: center;
+    justify-content: flex-end;
+}
+.sss{
+    justify-content: flex-end;
+    display: flex;
+    margin: auto;
+    margin-right: 3px;
+    padding: 15px 10px;
+    margin-left: 20px;
+
+
+}
+label{
+    border-radius: 90%;
+    width: 70px;
+    height: 35px;
+    padding: 15px;
+    background-color: rgb(197, 197, 197);
+    color: black;
+    position: relative;
+    right: -15px;
+    bottom: 6px;
+    top: 20px;
+}
+.imgc{
+
+left: 230px;
+bottom: 100px;
+position: relative;
+width: 20px;
+display: flex;
+margin: auto;
+left:40px;
+top: -700px;
+}
+.imgss{
+
+left: 230px;
+bottom: 100px;
+position: relative;
+width: 20px;
+display: flex;
+margin: auto;
+left:40px;
+top: -680px;
+}
+.ff{
+    position: relative;
+
+    font-size: 20px;
+    top:-650px;
+    left:20px;
+    display: flex;
+    width: 20px;
+    height: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.cc{
+    position: relative;
+
+    font-size: 20px;
+    top:-630px;
+    left:20px;
+    display: flex;
+    width: 20px;
+    height: 5px;
+    margin-left: 10px;
+    margin-top: 15px;
+   
+
+}
+.cc img{
+    width: 60px;
+    height: 30px;
+}
+.ff img{
+    width: 60px;
+    height: 30px;
+}
+.cc p{
+    margin-left: 15px;
+    position: relative;
+
+}
+.ff p{
+    margin-left: 15px;
+    position: relative;
+
+}
